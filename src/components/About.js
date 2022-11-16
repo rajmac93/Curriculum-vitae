@@ -22,13 +22,14 @@ export default class About extends Component {
 						<div className='row mt'>
 							<div className='col s12 m6 l6 xl6'>
 								<p>
-									<strong>Address:</strong> 123 Lorem
+									<strong>Address:</strong> Rzeszów, ul.
+									Lewakowskiego 3B
 								</p>
 								<p>
-									<strong>Email:</strong> asd@asd.com
+									<strong>Email:</strong> rajmac93@gmail.com
 								</p>
 								<p>
-									<strong>Phone:</strong> 123 456 789
+									<strong>Phone:</strong> 726 517 950
 								</p>
 							</div>
 							<div className='col s12 m6 l6 xl6'>
@@ -36,7 +37,7 @@ export default class About extends Component {
 									<strong>Main lenguage:</strong> Polish
 								</p>
 								<p>
-									<strong>second lenguage:</strong> English
+									<strong>Second lenguage:</strong> English
 								</p>
 							</div>
 						</div>
