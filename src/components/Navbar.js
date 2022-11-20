@@ -20,30 +20,26 @@ export default class Navbar extends Component {
 							<ul className='right hide-on-med-and-down'>
 								<li>
 									<Link to='/'>
-										<i className='fas fa-home'></i>Home
+										<i className='fas fa-home'></i>
+										&#160;&#160;Home
 									</Link>
 								</li>
 								<li>
 									<Link to='/skills'>
-										<i className='fas fa-copy'></i>Skills
+										<i className='fas fa-copy'></i>
+										&#160;&#160;Umiejętności
 									</Link>
 								</li>
 								<li>
 									<Link to='/experiences'>
 										<i className='fas fa-id-badge'></i>
-										Experiences
+										&#160;&#160;Doświadczenie
 									</Link>
 								</li>
 								<li>
 									<Link to='/educations'>
 										<i className='fas fa-graduation-cap'></i>
-										Educations
-									</Link>
-								</li>
-								<li>
-									<Link to='/portfolios'>
-										<i className='fas fa-address-card'></i>
-										Portfolios
+										&#160;&#160;Wykształcenie
 									</Link>
 								</li>
 							</ul>
@@ -58,25 +54,19 @@ export default class Navbar extends Component {
 					</li>
 					<li>
 						<Link to='/skills'>
-							<i className='fas fa-copy'></i>Skills
+							<i className='fas fa-copy'></i>Umiejętności
 						</Link>
 					</li>
 					<li>
 						<Link to='/experiences'>
 							<i className='fas fa-id-badge'></i>
-							Experiences
+							Doświadczenie
 						</Link>
 					</li>
 					<li>
 						<Link to='/educations'>
 							<i className='fas fa-graduation-cap'></i>
-							Educations
-						</Link>
-					</li>
-					<li>
-						<Link to='/portfolios'>
-							<i className='fas fa-address-card'></i>
-							Portfolios
+							Wykształcenie
 						</Link>
 					</li>
 				</ul>
