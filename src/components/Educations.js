@@ -8,52 +8,31 @@ export default class Educations extends Component {
 				<div className='card'>
 					<div className='card-content'>
 						<h6>
-							<strong>EDUCATIONS</strong>
+							<strong>WYKSZTAŁCENIE</strong>
 						</h6>
 						<table className='striped'>
 							<thead>
 								<tr>
-									<th>Certificate</th>
-									<th>Date</th>
-									<th></th>
+									<th>Nazwa</th>
+									<th>Data</th>
+									<th>Specjalizacja</th>
+									<th>Poziom Wykształcenia</th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
-									<td>Web Development</td>
-									<td>Jan 2018</td>
+									<td>Uniwersytet Rzeszowski</td>
+									<td>Październik 2013 – Luty 2019</td>
 									<td>
-										<Link
-											to='#'
-											className='btn blue lighten-2'
-										>
-											View
-										</Link>
+										Inteligentne Systemy Wspomagania Decyzji
 									</td>
+									<td>Inżynier</td>
 								</tr>
 								<tr>
-									<td>Web Development</td>
-									<td>Jan 2018</td>
-									<td>
-										<Link
-											to='#'
-											className='btn blue lighten-2'
-										>
-											View
-										</Link>
-									</td>
-								</tr>
-								<tr>
-									<td>Web Development</td>
-									<td>Jan 2018</td>
-									<td>
-										<Link
-											to='#'
-											className='btn blue lighten-2'
-										>
-											View
-										</Link>
-									</td>
+									<td>Zespół Szkół nr 3 w Sanoku</td>
+									<td>Wrzesień 2009 – Maj 2013</td>
+									<td>Grafik komputerowy</td>
+									<td>Średnie</td>
 								</tr>
 							</tbody>
 						</table>

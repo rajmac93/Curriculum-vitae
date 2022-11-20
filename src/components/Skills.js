@@ -7,7 +7,7 @@ export default class Skills extends Component {
 				<div className='card'>
 					<div className='card-content'>
 						<h6>
-							<stron>PROFFESIONAL SKILLS</stron>
+							<stron>UMIEJĘTNOŚCI</stron>
 						</h6>
 						<div className='row mt-top'>
 							<div className='col s6'>
@@ -43,6 +43,15 @@ export default class Skills extends Component {
 									<div
 										className='determinate blue'
 										style={{ width: '30%' }}
+									></div>
+								</div>
+							</div>
+							<div className='col s6'>
+								<p>GIT</p>
+								<div className='progress grey lighten-1'>
+									<div
+										className='determinate blue'
+										style={{ width: '70%' }}
 									></div>
 								</div>
 							</div>
